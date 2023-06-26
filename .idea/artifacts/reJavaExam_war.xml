@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="reJavaExam:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>reJavaExam</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="reJavaExam-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="reJavaExam:war exploded" />
+    </root>
+  </artifact>
+</component>
